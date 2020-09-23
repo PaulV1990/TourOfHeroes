@@ -7,9 +7,7 @@ import {Hero} from '../hero';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
-  hero = 'Windstorm';
-
-  hero2: Hero = {
+  hero: Hero = {
     id: 1,
     name: 'Windstorm'
   };
